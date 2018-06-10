@@ -14,6 +14,7 @@ MONGO DB로 데이터베이스와 연동하였고
 public폴더를 static으로 오픈되도록 설정하였기 때문에 접속할때 ip:3000/public/______.html로 접속해야 한다.
 
 사용한 데이터베이스 name 은 local이다.
+데이터베이스를 사용하기 전에 먼저 mongod --dbpath /Users/DSM2018(사용자이름)/database(임의로 생성한 폴더)/local(데이터베이스 이름) 명령어를 먼저 실행해야 데이터베이스와의 연동이 가능하다.
 
 코드에서 사용한 모듈은 express, http, path, body-parser, cookie-parser, serve-static, express-error-handler, express-session, mongoose 등이 있다. 코드를 정상적으로 확인하기 위해서는 위의 모듈들을 모두 npm에서 설치해야 한다.
 
