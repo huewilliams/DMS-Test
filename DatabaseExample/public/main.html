@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>메인페이지</title>
+    </head>
+    <body>
+        <form method="post" action="/me">
+            <input type="submit" value="마이페이지">     
+        </form>
+        <form method="post" action="/chks">
+            <h1>DSM Main Page</h1>
+            <br>
+            <br><br><a href='/public/login.html'>다시 로그인 하기</a>
+            <p>잔류/귀가 신청</p>
+            <input type="submit" value="잔류 신청 여부 확인하기">
+        </form>
+        <form method="post" action="/chko">
+            <input type="submit" value="외출 신청 여부 확인하기">
+        </form>
+        <form method="post" action="/stay"> 
+                <input type="submit" value="잔류신청">                
+        </form>
+        <form method="post" action="/frih"> 
+                <input type="submit" value="금요귀가">                
+        </form>
+        <form method="post" action="/sath"> 
+                <input type="submit" value="토요귀가">                
+        </form>
+        <form method="post" action="/satd"> 
+                <input type="submit" value="토요귀사">                
+        </form>
+        <p>외출신청</p>
+        <form method="post" action="/satout">
+            <input type="submit" value="토요외출신청">
+        </form>
+        <form method="post" action="/sunout">
+            <input type="submit" value="일요외출신청">
+        </form>
+    </body>
+</html>
